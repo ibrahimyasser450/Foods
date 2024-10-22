@@ -1,10 +1,16 @@
 ## Food Project: 
 Add a new food.
+
 Update food.
+
 Delete food.
+
 Search for any food title.
+
 Get all the foods to show them.
+
 Show all images in a slide show on home page.
+
 Show details about any food.
 
 ## Getting Started
