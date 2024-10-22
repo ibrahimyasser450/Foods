@@ -51,7 +51,7 @@ Note: I used MongoDB to store and fetch data.
 
 3- JavaScript
 
-4- React
+4- Reactjs
 
 5- Nextjs
 
