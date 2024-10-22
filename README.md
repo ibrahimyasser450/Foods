@@ -44,7 +44,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 Note: I used MongoDB to store and fetch data.
 
 
-## technoloies 
+## technologies 
 1- HTML
 
 2- CSS
