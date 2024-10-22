@@ -41,6 +41,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 3-[delet-food](http://localhost:3000/delete-food/[id]). This endpoint can be edited in `pages/api/delete-food/[foodId].js`.
 
 
+Note: I used MongoDB to store and fetch data.
+
+
 ## technoloies 
 1- HTML
 
