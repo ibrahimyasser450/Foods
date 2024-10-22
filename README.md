@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Food Project: 
+Add a new food.
+Update food.
+Delete food.
+Search for any food title.
+Get all the foods to show them.
+Show all images in a slide show on home page.
+Show details about any food.
 
 ## Getting Started
 
@@ -6,35 +13,37 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result, get all images in slide show and can go to community and view all the foods.
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[Show all the foods](http://localhost:3000/foods). This endpoint can be edited in `pages/foods/index.js`. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Show Details](http://localhost:3000/[id]). This endpoint can be edited in `pages/[foodId].js`. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Search for foods by title](http://localhost:3000/?search=?). This endpoint can be edited in `pages/index.js`. 
 
-## Learn More
+[Visit our community](http://localhost:3000/community). This endpoint can be edited in `pages/community/index.js`.
 
-To learn more about Next.js, take a look at the following resources:
+[API routes] 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1-[new-food](http://localhost:3000/new-food). This endpoint can be edited in `pages/api/new-food/index.js`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2-[edit-food](http://localhost:3000/edit-food/[id]). This endpoint can be edited in `pages/api/edit-food/[foodId].js`.
 
-## Deploy on Vercel
+3-[delet-food](http://localhost:3000/delete-food/[id]). This endpoint can be edited in `pages/api/delete-food/[foodId].js`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## technoloies 
+1- HTML
+
+2- CSS
+
+3- JavaScript
+
+4- React
+
+5- Nextjs
+
+6- MongoDB
