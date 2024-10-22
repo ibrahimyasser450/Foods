@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import Link from "next/link";
-import classes from "@/styles/home.module.css";
+import classes from "../styles/home.module.css";
 import ImageSlideshow from "@/components/image/imageSlideshow";
 export default function Home() {
   return (
